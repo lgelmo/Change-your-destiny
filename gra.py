@@ -995,7 +995,7 @@ while True:
             blue_body_y = blue_body_start_y = ter_blue_ys[n]
             miny = pola_minowe[n][:]
 
-            print(pola_minowe[maps_ind[0] - 1])
+            #print(pola_minowe[maps_ind[0] - 1])
 
         elif event.type == py.KEYDOWN and event.key == py.K_RETURN and MENU and menu_pos == 3:
             SETTINGS = True
